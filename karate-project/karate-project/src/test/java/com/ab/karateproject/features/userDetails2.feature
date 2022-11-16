@@ -14,5 +14,5 @@ Feature: user Details
     Then print 'result-------->',result
     * def first_name = result.response.data.first_name
     Then print 'First Name is -------->',first_name
-    And match response.data.id == 3
-    And match response.data.last_name != null
+#    And match response.data.id == 3
+#    And match response.data.last_name != null
